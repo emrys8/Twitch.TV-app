@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:500');
+
+.twitch-box {
+  background-color: #1b2825;
+  color: #fff;
+  width: 600px;
+  height: 350px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.twitch-box .twitch-heading {
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #006045;
+  border: 2px solid #fff;
+}
+
+.twitch-box .twitch-heading h1 {
+  margin: 0 auto;
+  display: block;
+  padding: 20px 20px;
+  margin-left: 30px;
+}
+
+.is-online, .is-offline {
+  border: 1px solid #fff;
+  font-family: Quicksand, sans-serif;
+}
+.is-online {
+  background-color: #0147a8;
+}
+
+.is-offline {
+  background-color: #c14155;
+}
+
+span {
+  margin-left: 20em;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.rounded {
+  border-radius: 100%;
+  width:50px;
+  height: 50px;
+}
+
+.image-container {
+/*   display: inline-; */
+}
+
